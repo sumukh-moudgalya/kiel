@@ -2,9 +2,9 @@
 ORG 0000H;
 
  
-MOV TMOD,#01H;selecting 16-bit timer i.e, mode 1 
+MOV TMOD,#01H ;selecting 16-bit timer i.e, mode 1 
 
-LOOP1:;running the program continously 
+LOOP1:        ;running the program continously 
 
 MOV P1,#0FFH;logic high at port 1 for square wave
 
